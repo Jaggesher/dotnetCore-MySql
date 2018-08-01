@@ -40,7 +40,7 @@ namespace dotnetCore_MySql
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
